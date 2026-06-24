@@ -1,0 +1,91 @@
+#contertion{
+    background-color: #27005D;
+}
+a{
+    text-decoration: none;
+}
+header{
+    min-height: 10vh;
+    background-color: #000000;
+}
+.iconHead{
+    min-height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.iconHead img{
+    width: 130px;
+}
+.navListHead{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navListHead ul{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navListcanvas ul{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.btnNav{
+    color: #E4F1FF !important;
+    transition: all 0.3s;
+}
+.btnNav:hover{
+    color: #9400FF !important;
+    text-shadow: 0px 0px 15px #9400FF;
+}
+.loginconter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.login{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    border-radius: 35px;
+    text-align: center;
+    background-color: #9400FF;
+    color: #E4F1FF;
+    transition: all 0.5s;
+    border: none;
+}
+.login:hover{
+    background-color: #E4F1FF;
+    color: #9400FF;
+    box-shadow: 0px 0px 15px #E4F1FF;
+}
+.Convanseheadercss{
+    background-color: #000000;
+    color: #E4F1FF;
+}
+.Convansecss{
+    background-color: #27005D;
+    color: #E4F1FF;
+}
+.star{
+    color: #8a0b0b;
+    background-color: #000000;
+    border: none;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .iconHead img{
+        width: 110px;
+    }      
+}
